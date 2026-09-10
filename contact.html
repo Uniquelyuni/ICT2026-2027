@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="external.css">
+</head>
+<body class="contact-page">
+
+    <!-- Navigation -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-button" aria-label="Open navigation">☰</label>
+
+    <nav class="sidebar">
+        <a href="index.html">Homepage</a>
+        <a href="registration.html">Registration</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="signin.html">Sign In</a>
+    </nav>
+
+    <main>
+        <section class="contact-card">
+            <h1>Contact Us!</h1>
+            <p class="description">Have a question or concern? Send us a message and let us know.</p>
+
+            <form name="Contact Form" method="post">
+                <input type="text" name="Name" placeholder="Your Name..." required>
+                <input type="email" name="Email" placeholder="Your Email..." required>
+                <input type="text" name="Subject" placeholder="Subject...">
+                <textarea name="Message" placeholder="Write your message here..."></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

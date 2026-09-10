@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="external.css">
+</head>
+<body class="signin-page">
+
+    <!-- Navigation -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-button" aria-label="Open navigation">☰</label>
+
+    <nav class="sidebar">
+        <a href="index.html">Homepage</a>
+        <a href="registration.html">Registration</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <section class="simple-card signin-card">
+            <h1>Sign In</h1>
+            <hr class="signin-divider">
+
+            <form name="f1" method="post">
+                <div class="signin-row">
+                    <label for="signin-email">E-mail address</label>
+                    <input id="signin-email" type="email" name="email">
+                </div>
+
+                <div class="signin-row">
+                    <label for="signin-password">Password</label>
+                    <input id="signin-password" type="password" name="password">
+                </div>
+
+                <input type="submit" value="Sign in">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
